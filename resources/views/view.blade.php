@@ -12,6 +12,10 @@
                 <th scope="col">NIM</th>
                 <th scope="col">NAMA</th>
                 <th scope="col">ALAMAT</th>
+                <th scope="col">UMUR</th>
+                <th scope="col">KOTA</th>
+                <th scope="col">KELAS</th>
+                <th scope="col">JURUSAN</th>
             </tr>
         </thead>
         <tbody>
@@ -19,6 +23,10 @@
                 <td>{{$data['nim']}}</td>
                 <td>{{$data['nama']}}</td>
                 <td>{{$data['alamat']}}</td>
+                <td>{{$data['umur']}}</td>
+                <td>{{$data['kota']}}</td>
+                <td>{{$data['kelas']}}</td>
+                <td>{{$data['jurusan']}}</td>
             </tr>
         </tbody>
     </table>
